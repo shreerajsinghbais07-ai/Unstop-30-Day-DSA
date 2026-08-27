@@ -1,0 +1,38 @@
+
+
+### Problem: Assembly Line
+
+**Problem Statement:**
+In an assembly line at St. Mary School, $N$ students stand in ascending order of their heights. Nidhi Sharma, a teacher, has $k$ queries, where she asks about the height $H$ of a particular student.
+
+Your task is to determine the position (0-based index) of the student in the line if they are present. If the student is absent, your task is to determine the correct position where that student should be placed to maintain the ascending order.
+
+**Input Format:**
+
+* The first line contains an integer $N$, the total number of students.
+* The second line contains $N$ space-separated integers representing the heights of the students (in ascending order).
+* The third line contains an integer $k$, the number of queries.
+* The next $k$ lines each contain a single integer $H$, representing the height of the student being enquired.
+
+**Output Format:**
+
+* For each query, print the appropriate 0-based index on a new line.
+
+---
+
+### Logic & Key Takeaways
+
+* **Identify the Algorithm:** Because the array of heights is already sorted, use **Binary Search** instead of a Linear Search. This dramatically reduces the time it takes to find the answer.
+* **The "Lower Bound" Strategy:** The goal is to find the exact insertion point, whether the student is already in the line or not.
+* **Initial Boundaries:**
+* Set `left = 0`.
+* Set `right = N` (We use $N$ instead of $N - 1$ because if a student is taller than *everyone* in the current line, they must be inserted at the very end).
+
+
+* **Preventing Infinite Loops:** Use `while (left < right)` so the loop stops the exact moment the two pointers meet.
+* **Updating Pointers:**
+* If `heights[mid] < target`: The spot we need is definitely to the right. Update `left = mid + 1`.
+* Otherwise (if `heights[mid] >= target`): The spot we need could be exactly at `mid`, or to the left of it. Update `right = mid`.
+
+
+* **The Result:** When the loop finishes, `left` will perfectly equal the 0-based index where the student is (or should be) located.
