@@ -1,0 +1,9 @@
+**Problem:** Double Array
+
+**Problem Statement:**
+Sort a given sequence of numbers and then concatenate the sorted sequence with itself to form a new array of double the size.
+
+**Key Learnings:**
+*   **Array Manipulation:** Concatenating an array with itself requires dynamically allocating a new array of size `2 * n`. The first half is filled using `result[i] = arr[i]`, and the second half is filled using `result[i + n] = arr[i]`.
+*   **Time Complexity:** When N is large (up to 10^6), basic sorting algorithms like Bubble Sort (O(N^2)) will fail with a Time Limit Exceeded (TLE) error. 
+*   **Built-in Functions:** Always use C's built-in `qsort()` function for an optimal O(N log N) sorting time. It requires a simple helper `compare` function to dictate the ascending order.
