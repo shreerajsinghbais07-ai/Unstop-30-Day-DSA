@@ -1,0 +1,9 @@
+**Problem:** Bouquet of Flowers (Two Sum on Sorted Array)
+
+**Key Learning (Two-Pointer Technique):**
+When an array is already sorted and you need to find two numbers that sum to a specific target, use two pointers instead of nested loops. Start one pointer at the beginning (`left = 0`) and one at the end (`right = n - 1`). 
+
+**Logic:**
+* If `sum < target`, move `left` up to increase the sum.
+* If `sum > target`, move `right` down to decrease the sum.
+* This reduces the time complexity from O(N^2) down to a highly efficient O(N).
