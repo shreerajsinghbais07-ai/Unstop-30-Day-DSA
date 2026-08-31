@@ -1,0 +1,9 @@
+**Problem:** Kth Character (String Reversal)
+
+**Topic:** Strings & Math Optimization
+
+**Algorithm Logic:**
+Instead of physically reversing an array of 1,000,000 characters (which costs O(N) time and memory), we can find the answer in O(1) time. The k-th character of a reversed string is mathematically identical to the k-th character from the end of the original string. 
+
+**Key Learning:**
+In a 0-indexed array of size N, the k-th element from the end is always located at index `N - k`. Always look for mathematical shortcuts before writing a brute-force simulation loop! Used `malloc` to safely handle massive string inputs without crashing the memory stack.
