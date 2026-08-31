@@ -1,0 +1,19 @@
+Problem: Clean the Record (Remove Duplicates from Sorted Linked List)
+
+Topic: Singly Linked Lists & Pointer Manipulation
+
+Algorithm Logic:
+Since the linked list is already sorted, any duplicate values will always be adjacent to each other.
+
+Start a current pointer at the head of the list.
+
+Traverse the list as long as current->next is not NULL.
+
+Compare the current node's value (current->val) to the next node's value (current->next->val).
+
+If they match: You found a duplicate. Route the current node's next pointer to skip the duplicate node entirely (current->next = current->next->next).
+
+If they do not match: Simply move the pointer one step forward (current = current->next).
+
+Key Learning:
+Unlike arrays, you do not delete elements by shifting everything over. You remove an element from a linked list by simply changing where the previous arrow points. In C, it is also crucial to use the free() function on the skipped node to release the memory back to the computer and prevent memory leaks.
