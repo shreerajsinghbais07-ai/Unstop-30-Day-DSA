@@ -19,3 +19,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 *Day 4: Clean the Record (Remove Duplicates)*
 * *Topic:* Singly Linked Lists
 * *Learning:* Mastered pointer manipulation by traversing a sorted linked list to remove duplicate nodes. Learned to bypass a node by re-routing the pointer (current->next = current->next->next) and used free() to properly manage memory and prevent memory leaks in C.
+
+**Day 5: Kth Character**
+* **Topic:** Strings & O(1) Optimization
+* **Learning:** Solved a string manipulation problem without actually manipulating the string. Recognized that finding the k-th character of a reversed string simply requires calculating its original index using `n - k`. This reduced the time and space complexity from O(N) to O(1).
