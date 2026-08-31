@@ -15,3 +15,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 **Day 3: Bouquet of Flowers**
 * **Topic:** Arrays & Two Pointers
 * **Learning:** Implemented the Two-Pointer technique on a sorted array to find a specific target sum efficiently. By placing pointers at the start and end and adjusting them based on whether the current sum was too high or too low, I reduced the time complexity from O(N^2) down to an optimal O(N).
+
+*Day 4: Clean the Record (Remove Duplicates)*
+* *Topic:* Singly Linked Lists
+* *Learning:* Mastered pointer manipulation by traversing a sorted linked list to remove duplicate nodes. Learned to bypass a node by re-routing the pointer (current->next = current->next->next) and used free() to properly manage memory and prevent memory leaks in C.
