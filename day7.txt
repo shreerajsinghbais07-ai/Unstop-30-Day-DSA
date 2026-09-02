@@ -1,0 +1,10 @@
+**Problem:** Happy Number
+
+**Topic:** Math, Two Pointers (Cycle Detection)
+
+**Algorithm Logic:**
+To determine if a number is "happy", we must repeatedly sum the squares of its digits. The process either eventually reaches 1 (happy), or loops endlessly in a cycle (unhappy). 
+To detect the cycle, we use Floyd's Tortoise and Hare algorithm. A `slow` variable calculates the sum of squares once per iteration, while a `fast` variable calculates it twice. 
+
+**Key Learning:**
+If a sequence loops, a pointer moving at 2x speed will always eventually land on the exact same value as a pointer moving at 1x speed (`slow == fast`). If they intersect at any number other than 1, we immediately know a cycle exists and can terminate the program with a `false` result, preventing an infinite loop.
