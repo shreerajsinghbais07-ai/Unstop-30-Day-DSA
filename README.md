@@ -23,3 +23,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 **Day 5: Kth Character**
 * **Topic:** Strings & O(1) Optimization
 * **Learning:** Solved a string manipulation problem without actually manipulating the string. Recognized that finding the k-th character of a reversed string simply requires calculating its original index using `n - k`. This reduced the time and space complexity from O(N) to O(1).
+
+**Day 6: Triangle Game**
+* **Topic:** Math & Pascal's Triangle
+* **Learning:** Optimized an apparent O(N^2) pattern generation problem down to O(N) by applying combinatorial math (`nCr`). Mastered handling intermediate integer overflow by correctly utilizing 64-bit `long long` data types for large sequential multiplications.
