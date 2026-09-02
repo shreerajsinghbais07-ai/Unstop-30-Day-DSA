@@ -1,0 +1,9 @@
+**Problem:** Triangle Game (Pascal's Triangle)
+
+**Topic:** Math & Combinatorics
+
+**Algorithm Logic:**
+The N-th row of Pascal's Triangle can be generated using combinations (nCr) in O(N) time without calculating previous rows. Starting with 1, each subsequent element is calculated iteratively using the formula: `val = val * (N - i) / (i + 1)`. 
+
+**Key Learning:**
+Data types matter in intermediate calculations! Even if the final answer fits in a 32-bit `int`, the intermediate multiplication (`val * (N - i)`) can easily overflow it. Using a 64-bit `long long` is a necessary safety measure for combinatorics problems to prevent hidden calculation errors.
