@@ -27,3 +27,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 **Day 6: Triangle Game**
 * **Topic:** Math & Pascal's Triangle
 * **Learning:** Optimized an apparent O(N^2) pattern generation problem down to O(N) by applying combinatorial math (`nCr`). Mastered handling intermediate integer overflow by correctly utilizing 64-bit `long long` data types for large sequential multiplications.
+
+**Day 7: Happy Number**
+* **Topic:** Math & Floyd's Cycle Detection
+* **Learning:** Successfully stepped up to a Medium-level problem. Adapted the Two-Pointer technique into the Tortoise and Hare algorithm to detect infinite cycles. Built a helper function to isolate the digit-squaring math, keeping the main pointer logic clean and readable.
