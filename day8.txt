@@ -1,0 +1,9 @@
+**Problem:** Escape Plan (Sort and Find Middle of Linked List)
+
+**Topic:** Linked Lists & Counting Sort
+
+**Algorithm Logic:**
+Leveraged the constraint that values are small (<= 100) to use a highly efficient O(N) Counting Sort instead of standard O(N log N) algorithms. Tallied the frequencies of each value in a single pass, then overwrote the linked list values in ascending order during a second pass.
+
+**Key Learning:**
+Always read the constraints! A massive dataset (N = 10^6) with a tiny domain of possible values is the universal signal to use Counting Sort. For finding the first middle node of an even-length list, the index formula is `(total - 1) / 2`.
