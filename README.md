@@ -31,3 +31,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 **Day 7: Happy Number**
 * **Topic:** Math & Floyd's Cycle Detection
 * **Learning:** Successfully stepped up to a Medium-level problem. Adapted the Two-Pointer technique into the Tortoise and Hare algorithm to detect infinite cycles. Built a helper function to isolate the digit-squaring math, keeping the main pointer logic clean and readable.
+
+**Day 8: Escape Plan**
+* **Topic:** Linked Lists & Linear Time Sorting
+* **Learning:** Successfully combined linked list traversal with an optimal O(N) Counting Sort by analyzing the problem constraints. Avoided the overhead of converting the list to an array for `qsort` by tallying frequencies and overwriting the node values directly in place.
