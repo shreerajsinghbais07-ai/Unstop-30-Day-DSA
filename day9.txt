@@ -1,0 +1,9 @@
+**Problem:** Choose Your Syllabus (Array Comparison)
+
+**Topic:** Sorting & Two Pointers
+
+**Algorithm Logic:**
+To avoid an O(N^2) Time Limit Exceeded error, sort both arrays first. By iterating through the first array and using a persistent pointer for the second array, you can count the number of valid (less than or equal) elements in O(N) time. 
+
+**Key Learning:**
+Sorting transforms complex multi-comparisons into simple linear traversals. Also identified an integer overflow risk: when summing counts of large arrays, the total can exceed the 32-bit integer limit, requiring internal 64-bit `long long` accumulators even if the required return type is standard `int`.
