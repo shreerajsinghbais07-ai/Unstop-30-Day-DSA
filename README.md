@@ -35,3 +35,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 **Day 8: Escape Plan**
 * **Topic:** Linked Lists & Linear Time Sorting
 * **Learning:** Successfully combined linked list traversal with an optimal O(N) Counting Sort by analyzing the problem constraints. Avoided the overhead of converting the list to an array for `qsort` by tallying frequencies and overwriting the node values directly in place.
+
+**Day 9: Choose Your Syllabus**
+* **Topic:** Sorting & Two Pointers
+* **Learning:** Mastered the technique of using sorted arrays and synchronized pointers to drop algorithm time complexity from O(N^2) to O(N log N). Handled large data summations using `long long` accumulators to prevent silent overflow errors during large test cases.
