@@ -1,0 +1,9 @@
+**Problem:** Backspace String Compare
+
+**Topic:** Strings & Stack Simulation
+
+**Algorithm Logic:**
+Instead of allocating new arrays to build the final strings, simulated a stack directly inside the original arrays using a Two-Pointer technique. A "read" pointer scans through the characters, while a "write" pointer logs valid letters. When a '#' is encountered, the "write" pointer simply decrements, overwriting the deleted character on the next valid read step. 
+
+**Key Learning:**
+In-place array modification is a powerful O(1) space optimization. By managing a separate index for where the next valid character should be written, you can dynamically "shrink" an array without needing to shift elements or allocate secondary memory buffers.
