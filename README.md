@@ -39,3 +39,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 **Day 9: Choose Your Syllabus**
 * **Topic:** Sorting & Two Pointers
 * **Learning:** Mastered the technique of using sorted arrays and synchronized pointers to drop algorithm time complexity from O(N^2) to O(N log N). Handled large data summations using `long long` accumulators to prevent silent overflow errors during large test cases.
+
+**Day 10: Backspace String Compare**
+* **Topic:** Strings & Stack Simulation
+* **Learning:** Mastered in-place string modification using a read/write pointer system to simulate stack operations (push/pop). Achieved O(N) time complexity and O(1) space complexity by resolving the backspace logic directly within the original memory blocks before comparing the final results.
