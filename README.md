@@ -43,3 +43,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 **Day 10: Backspace String Compare**
 * **Topic:** Strings & Stack Simulation
 * **Learning:** Mastered in-place string modification using a read/write pointer system to simulate stack operations (push/pop). Achieved O(N) time complexity and O(1) space complexity by resolving the backspace logic directly within the original memory blocks before comparing the final results.
+
+**Day 11: The Excavation Ledger**
+* **Topic:** Prefix Sums & Hash/Frequency Arrays
+* **Learning:** Implemented an O(N) algorithmic optimization to count contiguous subarrays divisible by a target integer. Successfully handled negative number modulo arithmetic in C and protected against massive output combinations using 64-bit integer accumulators.
