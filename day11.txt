@@ -1,0 +1,9 @@
+**Problem:** The Excavation Ledger (Subarray Sums Divisible by K)
+
+**Topic:** Prefix Sums & Modulo Arithmetic
+
+**Algorithm Logic:**
+Avoided an O(N^2) brute-force approach by utilizing prefix sums. If `prefix_sum[i] % k == prefix_sum[j] % k`, the subarray between `i` and `j` is a multiple of `k`. By keeping a frequency array of remainders, the valid contiguous runs can be counted in a single O(N) pass.
+
+**Key Learning:**
+Mastered handling negative modulo operations in C. Since C retains the negative sign during standard modulo, `(prefix_sum % k + k) % k` ensures the remainder maps correctly to a positive array index. Utilized `calloc` for immediate zero-initialization of the frequency array and `long long` to prevent overflow on massive combination counts.
