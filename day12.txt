@@ -1,0 +1,9 @@
+**Problem:** Alice Cleans Her Home (Move Zeroes)
+
+**Topic:** Arrays & In-Place Two Pointers
+
+**Algorithm Logic:**
+Instead of creating a second array and pushing functional bulbs into it (which costs O(N) space), used a Two-Pointer technique to modify the array in-place. A read pointer scans the array, and a write pointer places non-zero elements sequentially at the front. After scanning, all remaining indices from the write pointer to the end of the array are overwritten with zeros. 
+
+**Key Learning:**
+Reinforced O(1) space optimizations for array manipulation. Separating the logic into two distinct phases (shift non-zeros first, append zeros second) keeps the code mathematically clean and avoids complex swapping logic that could disrupt the relative ordering of the elements.
