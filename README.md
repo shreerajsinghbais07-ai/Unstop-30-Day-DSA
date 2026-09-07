@@ -47,3 +47,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 **Day 11: The Excavation Ledger**
 * **Topic:** Prefix Sums & Hash/Frequency Arrays
 * **Learning:** Implemented an O(N) algorithmic optimization to count contiguous subarrays divisible by a target integer. Successfully handled negative number modulo arithmetic in C and protected against massive output combinations using 64-bit integer accumulators.
+
+**Day 12: Alice Cleans Her Home**
+* **Topic:** Arrays & In-Place Two Pointers
+* **Learning:** Successfully adapted the Two-Pointer read/write technique to an integer array to solve the classic "Move Zeroes" problem. Maintained O(N) time complexity and optimal O(1) space complexity by shifting non-zero elements to the front and backfilling the remainder with zeros.
