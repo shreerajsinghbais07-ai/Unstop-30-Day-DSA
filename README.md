@@ -51,3 +51,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 **Day 12: Alice Cleans Her Home**
 * **Topic:** Arrays & In-Place Two Pointers
 * **Learning:** Successfully adapted the Two-Pointer read/write technique to an integer array to solve the classic "Move Zeroes" problem. Maintained O(N) time complexity and optimal O(1) space complexity by shifting non-zero elements to the front and backfilling the remainder with zeros.
+
+**Day 13: Tom And Jerry**
+* **Topic:** Arrays & Descending Sorting
+* **Learning:** Mastered custom comparator functions in C's `qsort` to manipulate array ordering. Solved the Kth largest element problem with `O(N log N)` time complexity and `O(1)` space complexity by sorting the array in descending order and directly targeting the `k - 1` index.
