@@ -1,0 +1,9 @@
+**Problem:** Tom And Jerry (Kth Largest Element in an Array)
+
+**Topic:** Sorting Algorithms
+
+**Algorithm Logic:**
+Because the problem specifies finding the Kth largest element *including repetitions*, we do not need to filter for unique values or use complex heap structures. We can simply sort the entire array in descending order using `qsort` and directly access the target element at index `k - 1`.
+
+**Key Learning:**
+Modified the standard `qsort` comparator function to sort in descending order rather than ascending. By returning `1` when `a < b`, the algorithm inherently pushes smaller values to the back of the array, cleanly setting up a direct O(1) index lookup for the final answer.
