@@ -55,3 +55,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 **Day 13: Tom And Jerry**
 * **Topic:** Arrays & Descending Sorting
 * **Learning:** Mastered custom comparator functions in C's `qsort` to manipulate array ordering. Solved the Kth largest element problem with `O(N log N)` time complexity and `O(1)` space complexity by sorting the array in descending order and directly targeting the `k - 1` index.
+
+**Day 14: Measurement of Array**
+* **Topic:** Arrays & Modulo Mathematics
+* **Learning:** Circled back to conquer a skipped Medium problem. Bypassed O(N log N) simulation constraints by mathematically reducing the original index sums to an O(1) formula and utilizing an O(N) Frequency Array to determine sorted index positions. Applied rigorous Modulo 10^9+7 distribution to secure large data calculations.
