@@ -1,0 +1,9 @@
+**Problem:** Measurement of Array
+
+**Topic:** Math, Modulo Arithmetic, Frequency Arrays
+
+**Algorithm Logic:**
+Avoided physically tracking the original indices of elements by recognizing that the sum of all original indices is a mathematical constant: N * (N - 1) / 2. Leveraged a frequency array (Counting Sort logic) to determine the last occurrence of each element in O(N) time. The last occurrence index is simply the running total of elements seen plus the current element's frequency minus 1. 
+
+**Key Learning:**
+Mastered distributing Modulo 10^9+7 across complex mathematical operations `((A % MOD) * (B % MOD)) % MOD` to prevent 64-bit integer overflows. Replaced the default `int arr[n]` VLA in the main function with `malloc` to safely handle massive 10^6 array constraints without crashing the memory stack.
