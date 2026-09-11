@@ -59,3 +59,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 **Day 14: Measurement of Array**
 * **Topic:** Arrays & Modulo Mathematics
 * **Learning:** Circled back to conquer a skipped Medium problem. Bypassed O(N log N) simulation constraints by mathematically reducing the original index sums to an O(1) formula and utilizing an O(N) Frequency Array to determine sorted index positions. Applied rigorous Modulo 10^9+7 distribution to secure large data calculations.
+
+**Day 15: Design Hashmap**
+* **Topic:** Data Structure Engineering (Hashing & Chaining)
+* **Learning:** Engineered a functional Hash Map from the ground up to handle data collisions. Implemented an array of Linked Lists (Chaining) to safely manage Insert, Get, and Delete operations in **O(1)** average time complexity, successfully avoiding reliance on pre-built libraries.
