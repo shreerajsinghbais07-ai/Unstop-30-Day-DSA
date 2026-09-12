@@ -1,0 +1,9 @@
+**Problem:** Design Hashmap
+
+**Topic:** Hashing & Linked Lists (Chaining)
+
+**Algorithm Logic:**
+Implemented a custom Hash Map from scratch without standard libraries. Used a prime number (10007) for the bucket array size to ensure uniform distribution via modulo hashing (`key % size`). Handled collisions using the "Chaining" method by attaching a dynamic Singly Linked List to each bucket index. 
+
+**Key Learning:**
+Combined dynamic memory allocation (`malloc`/`free`) with pointer traversal to handle Insert, Get, and Delete operations safely. Managing the `prev` pointer during the Delete operation is critical to ensure the linked list does not break when removing a node from the middle of a chain.
