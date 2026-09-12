@@ -63,3 +63,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 **Day 15: Design Hashmap**
 * **Topic:** Data Structure Engineering (Hashing & Chaining)
 * **Learning:** Engineered a functional Hash Map from the ground up to handle data collisions. Implemented an array of Linked Lists (Chaining) to safely manage Insert, Get, and Delete operations in **O(1)** average time complexity, successfully avoiding reliance on pre-built libraries.
+
+**Day 16: Too Many Books**
+* **Topic:** Dynamic Programming & Binary Search
+* **Learning:** Mastered the Longest Increasing Subsequence (LIS) pattern. Successfully bypassed standard O(N^2) limitations by integrating a Binary Search approach over a dynamic "tails" array, dropping the time complexity to a highly optimal O(N log N).
