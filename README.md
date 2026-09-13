@@ -71,3 +71,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 **Day 17: Tree Bias**
 * **Topic:** Trees & Breadth-First Search (BFS)
 * **Learning:** Implemented an $O(N)$ iterative BFS traversal with dynamic adjacency lists in C to aggregate node depths and prevent recursion stack overflows.
+
+**Day 18: Congenial Node**
+* **Topic:** Graph Theory & Star Graph Invariants
+* **Learning:** Identified the central node of a star tree in $O(1)$ time complexity by inspecting node overlap across initial edge pairs, bypassing unnecessary adjacency graph building.
