@@ -67,3 +67,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 **Day 16: Too Many Books**
 * **Topic:** Dynamic Programming & Binary Search
 * **Learning:** Mastered the Longest Increasing Subsequence (LIS) pattern. Successfully bypassed standard O(N^2) limitations by integrating a Binary Search approach over a dynamic "tails" array, dropping the time complexity to a highly optimal O(N log N).
+
+**Day 17: Tree Bias**
+* **Topic:** Trees & Breadth-First Search (BFS)
+* **Learning:** Implemented an $O(N)$ iterative BFS traversal with dynamic adjacency lists in C to aggregate node depths and prevent recursion stack overflows.
