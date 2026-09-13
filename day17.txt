@@ -1,0 +1,9 @@
+**Problem:** Tree Bias
+
+**Topic:** Trees, Adjacency Lists & BFS Traversal
+
+**Algorithm Logic:**
+Constructed a memory-efficient static Adjacency List to represent an unweighted tree graph of up to 10^5 nodes. Utilized Breadth-First Search (BFS) starting from root node 1 to calculate the exact depth of every node level by level. Summed node depths using a 64-bit integer (`long long`) to prevent arithmetic overflow on skewed tree paths.
+
+**Key Learning:**
+Avoided recursion stack limits on large tree depths by picking an iterative BFS queue over DFS recursion. Using 64-bit integer types is essential when aggregating cumulative tree metrics where max depths can compound up to ~5x10^9.
