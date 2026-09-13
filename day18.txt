@@ -1,0 +1,9 @@
+**Problem:** Congenial Node (Find Center of Star Graph)
+
+**Topic:** Graph Theory & Structural Invariants
+
+**Algorithm Logic:**
+Exploited the structural invariant of a star tree: the central node (degree N-1) must be endpoints of every edge in the graph. By comparing the endpoints of the first two edges (`edges[0]` and `edges[1]`), the common node between them is identified in O(1) time complexity. Heap allocation (`malloc`) was used for edge storage to prevent stack overflow for N up to 2*10^5.
+
+**Key Learning:**
+Graph problems with extreme structural constraints often do not require full graph construction (e.g., adjacency lists or matrices). Identifying invariants reduces computational and space complexity from O(N) auxiliary space to O(1).
