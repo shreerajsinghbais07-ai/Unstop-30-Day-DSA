@@ -75,3 +75,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 **Day 18: Congenial Node**
 * **Topic:** Graph Theory & Star Graph Invariants
 * **Learning:** Identified the central node of a star tree in $O(1)$ time complexity by inspecting node overlap across initial edge pairs, bypassing unnecessary adjacency graph building.
+
+*Day 19: Mocha's Alien Dictionary*
+* *Topic:* Dynamic Programming & String Processing
+* *Learning:* Implemented 1D DP string segmentation in $O(|S| \cdot N)$ complexity with precomputed string lengths and strncmp matching in C.
