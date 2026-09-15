@@ -1,0 +1,9 @@
+**Problem:** Mocha's Alien dictionary (Word Break)
+
+**Topic:** Dynamic Programming (1D String Segmentation)
+
+**Algorithm Logic:**
+Maintained a 1D boolean table `dp[i]` tracking whether the prefix of length `i` can be constructed from dictionary words. For each index `i`, iterated through the dictionary words to check if prefix `dp[i - word_length]` was valid and the ending substring matched the dictionary word via `strncmp`.
+
+**Key Learning:**
+Precomputing word lengths avoids repeated `strlen` calls inside tight loop bounds, reducing total operations to O(|S| * N) to fit strict platform runtimes.
