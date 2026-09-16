@@ -79,3 +79,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 *Day 19: Mocha's Alien Dictionary*
 * *Topic:* Dynamic Programming & String Processing
 * *Learning:* Implemented 1D DP string segmentation in $O(|S| \cdot N)$ complexity with precomputed string lengths and strncmp matching in C.
+
+**Day 20: Shortest Path to School**
+* **Topic:** 2D Dynamic Programming (Grid Optimization)
+* **Learning:** Solved the Minimum Path Sum problem on an $N \times M$ matrix in $O(N \cdot M)$ time complexity using dynamic state transitions in C.
