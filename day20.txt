@@ -1,0 +1,9 @@
+**Problem:** Shortest Path to School (Minimum Path Sum)
+
+**Topic:** 2D Dynamic Programming (Grid Path Optimization)
+
+**Algorithm Logic:**
+Constructed an N x M DP table where `dp[i][j]` stores the minimum cumulative cost to reach cell `(i, j)` from `(0, 0)`. Populated the first row and column sequentially since movement is restricted to right and down. For inner cells, accumulated the cell's value with the minimum transition state: `min(dp[i-1][j], dp[i][j-1])`.
+
+**Key Learning:**
+Grid-based optimal path problems display optimal substructure, allowing localized decisions based on previously solved subproblems rather than exhaustive path exploration.
