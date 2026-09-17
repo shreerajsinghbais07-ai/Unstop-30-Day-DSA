@@ -83,3 +83,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 **Day 20: Shortest Path to School**
 * **Topic:** 2D Dynamic Programming (Grid Optimization)
 * **Learning:** Solved the Minimum Path Sum problem on an $N \times M$ matrix in $O(N \cdot M)$ time complexity using dynamic state transitions in C.
+
+**Day 21: Cricket Match Score**
+* **Topic:** Greedy Algorithms & Array Reachability
+* **Learning:** Implemented an $O(N)$ time and $O(1)$ auxiliary space greedy reachability algorithm to determine target score feasibility in C.
