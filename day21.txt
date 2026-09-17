@@ -1,0 +1,9 @@
+**Problem:** Cricket Match Score (Jump Game)
+
+**Topic:** Greedy Algorithms & Array Traversal
+
+**Algorithm Logic:**
+Maintained a running variable `max_reachable` tracking the furthest array index reachable from position 0. Iterated through the array up to index N-1, updating `max_reachable = max(max_reachable, i + runs[i])`. If `i > max_reachable` at any point, returned false due to reaching an unreachable index.
+
+**Key Learning:**
+Reachable boundary checking in single-pass linear time avoids unnecessary branch exploration or backtracking, reducing space complexity to O(1) and time complexity to O(N).
