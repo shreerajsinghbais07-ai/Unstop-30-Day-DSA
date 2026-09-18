@@ -87,3 +87,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 **Day 21: Cricket Match Score**
 * **Topic:** Greedy Algorithms & Array Reachability
 * **Learning:** Implemented an $O(N)$ time and $O(1)$ auxiliary space greedy reachability algorithm to determine target score feasibility in C.
+
+**Day 22: Signal Peaks at Mission Control**
+* **Topic:** Monotonic Queue & Sliding Window
+* **Learning:** Computed maximum values across overlapping continuous cycles of size $k$ in $O(n)$ time complexity using a monotonic deque.
