@@ -1,0 +1,10 @@
+--- Day 1 Recall Notes ---
+Problem: Signal Peaks at Mission Control (Sliding Window Maximum)
+Topics Covered: Arrays, Sliding Window, Monotonic Deque
+
+Key Logic/Algorithm used: 
+- [Decode the deque logic yourself and write it here!]
+- Hint: Think about how you can drop elements that are smaller than the current one since they can never be the maximum in any overlapping cycle moving forward.
+
+Time Complexity: O(n) - Every element is added and removed from the deque at most once.
+Space Complexity: O(k) - The deque will hold at most k elements at any point.
