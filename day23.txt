@@ -1,0 +1,9 @@
+**Problem:** The Museum Ticket Budget (Maximum Subarray Sum Within Limit)
+
+**Topic:** Two Pointers / Sliding Window
+
+**Algorithm Logic:**
+Maintained a dynamic variable `current_sum` with two pointers `left` and `right`. Iterated `right` from 0 to N-1 while adding costs. Whenever `current_sum` exceeded budget B, incremented `left` to shrink the window until the sum dropped back within limits. Updated the global max length `max_len = max(max_len, right - left + 1)` at each valid state.
+
+**Key Learning:**
+Contiguous subarray problems with non-negative values exhibit monotonic window behaviors, allowing linear-time O(N) evaluation using two pointers instead of quadratic O(N^2) brute-force checks.
