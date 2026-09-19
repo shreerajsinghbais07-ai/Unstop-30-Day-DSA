@@ -1,0 +1,9 @@
+**Problem:** Track Team Pace Window (Longest Continuous Subarray With Limited Variance)
+
+**Topic:** Sliding Window & Dual Monotonic Deques
+
+**Algorithm Logic:**
+Maintained a dynamic window [left, right] alongside two monotonic deques storing array indices: one in decreasing order to query window maximums in O(1) and another in increasing order to query window minimums in O(1). Expanded `right` across the array and shrank `left` whenever `max_val - min_val > L`, tracking the longest valid window stretch.
+
+**Key Learning:**
+Combining sliding window pointers with dual monotonic queues enables real-time dynamic range max/min updates, eliminating the logarithmic factor of tree-based structures to achieve linear O(N) complexity.
