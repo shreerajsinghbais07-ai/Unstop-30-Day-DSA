@@ -91,3 +91,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 **Day 22: Signal Peaks at Mission Control**
 * **Topic:** Monotonic Queue & Sliding Window
 * **Learning:** Computed maximum values across overlapping continuous cycles of size $k$ in $O(n)$ time complexity using a monotonic deque.
+
+**Day 23: The Museum Ticket Budget**
+* **Topic:** Two Pointers & Sliding Window
+* **Learning:** Computed the maximum affordable contiguous subarray within budget limit $B$ in $O(N)$ time complexity using dynamic sliding window boundaries.
