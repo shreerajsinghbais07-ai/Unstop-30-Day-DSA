@@ -95,3 +95,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 **Day 23: The Museum Ticket Budget**
 * **Topic:** Two Pointers & Sliding Window
 * **Learning:** Computed the maximum affordable contiguous subarray within budget limit $B$ in $O(N)$ time complexity using dynamic sliding window boundaries.
+
+**Day 24: Track Team Pace Window**
+* **Topic:** Dual Monotonic Deques & Sliding Window
+* **Learning:** Computed the longest contiguous subsegment satisfying a peak-to-trough range limit $L$ in $O(N)$ time complexity using dynamic minimum and maximum tracking queues.
