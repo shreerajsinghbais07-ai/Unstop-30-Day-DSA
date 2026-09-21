@@ -1,0 +1,9 @@
+**Problem:** The Robotics Assembly Kit (Minimum Window Substring with Multi-frequency Requirements)
+
+**Topic:** Two Pointers / Sliding Window
+
+**Algorithm Logic:**
+Maintained required component frequencies in an array `req[26]` alongside a satisfied count `satisfied` tracking how many distinct requirement thresholds are currently met. Iterated the `right` pointer across the belt string to build frequencies. Whenever all `m` component requirements were satisfied (`satisfied == m`), incremented the `left` pointer to shrink the window while recording the minimum valid grab length `right - left + 1`.
+
+**Key Learning:**
+The variable-length sliding window pattern efficiently determines the shortest valid subsegment by expanding to fulfill target component counts and greedily shrinking to remove redundant prefix elements in linear O(N) time.
