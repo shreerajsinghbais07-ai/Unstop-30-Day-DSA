@@ -99,3 +99,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 **Day 24: Track Team Pace Window**
 * **Topic:** Dual Monotonic Deques & Sliding Window
 * **Learning:** Computed the longest contiguous subsegment satisfying a peak-to-trough range limit $L$ in $O(N)$ time complexity using dynamic minimum and maximum tracking queues.
+
+**Day 25: The Robotics Assembly Kit**
+* **Topic:** Sliding Window & Dynamic Frequency Counting
+* **Learning:** Solved the variable-length minimum window substring problem with multi-frequency character constraints in $O(N)$ time complexity using dynamic two-pointer boundary adjustments.
