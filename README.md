@@ -103,3 +103,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 **Day 25: The Robotics Assembly Kit**
 * **Topic:** Sliding Window & Dynamic Frequency Counting
 * **Learning:** Solved the variable-length minimum window substring problem with multi-frequency character constraints in $O(N)$ time complexity using dynamic two-pointer boundary adjustments.
+
+**Day 26: The Kharantep Relic Ledger**
+* **Topic:** DSU & Small-to-Large Merging
+* **Learning:** Engineered dynamic property resolution across expanding graph components. Leveraged a tailored Union-Find hierarchy mapped to min-max sorting heaps, ensuring rapid extraction while capping set-consolidation thresholds at an efficient $O(N \log^2 N)$ boundary.
