@@ -1,0 +1,9 @@
+**Problem:** The Kharantep Relic Ledger (Dynamic Graph Queries & Component Aggregation)
+
+**Topic:** Disjoint Set Union (DSU) & Small-to-Large Priority Queue Merging
+
+**Algorithm Logic:**
+Implemented a custom max-heap array mapped to Disjoint Set Union (DSU) roots to represent connected subterranean pockets. Each heap element evaluated priority identically to problem specifications: maximizing artifact value while breaking ties by minimizing chamber IDs. When `LINK` operations bridged two pockets, the smaller of the two roots' heaps was absorbed into the larger heap element-by-element, maintaining $O(S \log L)$ structural efficiency. `CLAIM` operations continuously queried and popped from the dynamically representative root node identified via path-compressed `find()` requests.
+
+**Key Learning:**
+Real-time dynamic connectivity with property querying demands more than simple Union-Find structures. Integrating small-to-large structural merging guarantees that aggregating disjoint resources avoids recursive explosion, ensuring $N$ operations evaluate cleanly in an upper bound of $O(N \log^2 N)$ worst-case complexity without relying on complex node-based leftist trees.
