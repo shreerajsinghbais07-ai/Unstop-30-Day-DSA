@@ -1,0 +1,9 @@
+**Problem:** The River Watch Log (Sliding Window Maximum & Distinct Elements Tracking)
+
+**Topic:** Sliding Window, Monotonic Deque, and Coordinate Compression
+
+**Algorithm Logic:**
+Sorted unique readings to perform coordinate compression, mapping large depth values (up to 10^9) into standard contiguous integer indices [0 ... U-1]. Maintained a sliding window of size W using two mechanisms: a monotonic decreasing queue to query the peak reading in O(1) time and a dynamic frequency array to update and count distinct depth readings in O(1) time per step.
+
+**Key Learning:**
+When sliding window queries require both range extreme metrics (max/min) and set properties (distinct element counts), combining a monotonic deque with coordinate-compressed frequency counting yields an optimal O(N log N) solution.
