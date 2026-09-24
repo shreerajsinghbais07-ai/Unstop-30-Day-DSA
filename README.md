@@ -111,3 +111,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 **Day 27: The River Watch Log**
 * **Topic:** Monotonic Deque & Dynamic Frequency Mapping
 * **Learning:** Combined monotonic queues for window maximum tracking with coordinate-compressed frequency counters to compute sliding window peaks and distinct element metrics in $O(N \log N)$ time.
+
+**Day 28: Beacon Cross-Check Protocol**
+* **Topic:** Binary Trie & Min-Heap
+* **Learning:** Implemented dynamic Maximum XOR searching using a 20-bit Binary Trie with subtree active counts and lazy-deleted min-heaps at leaf nodes to achieve $O(\text{bits})$ query and modification efficiency.
