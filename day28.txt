@@ -1,0 +1,9 @@
+**Problem:** Beacon Cross-Check Protocol (Dynamic Maximum XOR Query with ID Tie-Breaking)
+
+**Topic:** Binary Trie & Min-Heap
+
+**Algorithm Logic:**
+Constructed a 20-bit Binary Trie supporting dynamic insertion and deletion of active beacon broadcast codes. Because bitwise XOR produces unique values for distinct codes, identical maximal XOR values occur exclusively when multiple active beacons share the same code. To break ties by minimum station ID, each Trie leaf node maintains a min-heap of station IDs with lazy deletion for powered-down beacons.
+
+**Key Learning:**
+When optimizing binary XOR matching over dynamically updated sets, leveraging a Binary Trie combined with per-leaf priority queues enables bitwise greedy traversal in O(bits) time while managing metadata tie-breakers.
