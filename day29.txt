@@ -1,0 +1,8 @@
+**Problem:** Rzepin Dispatch Ceiling[cite: 41, 42]
+
+**Topic:** Dijkstra's Algorithm on a State-Space Graph
+
+**Algorithm Logic:**
+The problem asks for the minimum fuel route where the accumulated turbulence does not exceed a requested tolerance[cite: 41]. Because the overall maximum turbulence bound (R) is exceptionally small (R <= 100)[cite: 43], the standard shortest-path graph can be expanded into a 2D state-space graph. Nodes are defined as tuples of `(current_waypoint, accumulated_turbulence)`. 
+
+Dijkstra's Algorithm is used to find the absolute minimum fuel required to reach each waypoint at every exact turbulence level. Following the graph traversal, the results are converted into prefix minimums iteratively across the turbulence dimension. If a waypoint can be reached using 5 fuel for 2 turbulence, it is inherently reachable using 5 fuel for 3 turbulence. This prefix optimization collapses the post-processing time, allowing all Q queries to be evaluated individually in O(1) time by instantly retrieving the minimum fuel value at `dist[destination][tolerance]`[cite: 42].
