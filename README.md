@@ -115,3 +115,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 **Day 28: Beacon Cross-Check Protocol**
 * **Topic:** Binary Trie & Min-Heap
 * **Learning:** Implemented dynamic Maximum XOR searching using a 20-bit Binary Trie with subtree active counts and lazy-deleted min-heaps at leaf nodes to achieve $O(\text{bits})$ query and modification efficiency.
+
+* **Day 29: Rzepin Dispatch Ceiling**
+  * **Topic:** State-Space Dijkstra Algorithm
+  * **Learning:** Navigated a dual-constraint minimization problem by expanding the problem graph dimensions (incorporating the secondary strict constraint directly into the state node representation)[cite: 41, 43]. Optimized processing constraints to answer vast sets of variable requests dynamically using iterative prefix-minimum accumulations.
