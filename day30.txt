@@ -1,0 +1,8 @@
+**Problem:** Shards of the Kestrel Dig[cite: 48]
+
+**Topic:** Trie (Prefix Tree) with Hash Map Era Breakdown
+
+**Algorithm Logic:**
+The objective is to process streaming ADD and QUERY operations on strings paired with large era identifiers[cite: 47, 48]. A Standard Trie structure is maintained where each node represents a prefix[cite: 47]. Because eras can be as large as 10^9 and sparse[cite: 47, 48], each Trie node needs to store frequency counts broken down by era. 
+
+Instead of allocating dynamic maps at every node, a single global Hash Table uses open addressing with key `(node_id, era)` to track counts. When inserting a code string with its era, every prefix node along the path increments its count for that specific era[cite: 47]. To execute a prefix query, the Trie is traversed to the node corresponding to the prefix; the exact era count is then looked up in O(1) expected time in the hash table[cite: 47].
