@@ -119,3 +119,7 @@ Welcome to my 30-Day Data Structures and Algorithms (DSA) coding challenge repos
 * **Day 29: Rzepin Dispatch Ceiling**
   * **Topic:** State-Space Dijkstra Algorithm
   * **Learning:** Navigated a dual-constraint minimization problem by expanding the problem graph dimensions (incorporating the secondary strict constraint directly into the state node representation)[cite: 41, 43]. Optimized processing constraints to answer vast sets of variable requests dynamically using iterative prefix-minimum accumulations.
+
+* **Day 30: Shards of the Kestrel Dig**
+  * **Topic:** Trie & Open-Addressing Hash Table
+  * **Learning:** Handled multi-attribute streaming text queries by pairing dynamic Trie node transitions with a globally indexed hash map[cite: 47], keeping execution within optimal linear-time $O(\sum |code|)$ bounds[cite: 48].
